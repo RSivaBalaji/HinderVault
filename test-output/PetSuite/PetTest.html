@@ -1,0 +1,335 @@
+<html>
+<head>
+<title>TestNG:  PetTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PetTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>51/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 12 11:44:28 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>83 seconds (83812 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: marilynmathews</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: michaeldavies</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: zclark</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: walkerrebecca</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: cwoods</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: christopherparrish</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.UserTest.testDeleteUserbyName()'><b>testDeleteUserbyName</b><br>Test class: api.testcases.UserTest</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.UserTest@32057e6</td></tr>
+<tr>
+<td title='api.testcases.StoreTest.testDeleteUserbyName()'><b>testDeleteUserbyName</b><br>Test class: api.testcases.StoreTest</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.StoreTest@62417a16</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 2483, christopherparrish, Mark, Good, dennismartin@paul.net, tTiZ9BiqP), (140)429-2826</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 8773, zclark, Timothy, Whitehead, avilasheri@gmail.com, )v#PKzN*)0, +1-576-396-7156x58470</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.PetTest.testDeletePet()'><b>testDeletePet</b><br>Test class: api.testcases.PetTest</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.PetTest@26be6ca7</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: cwoods</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 4839, bmora, John, Montoya, xmckinney@gmail.com, 1R!veFWh%1, +1-793-630-7211x405</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 3728, michaeldavies, Marisa, Pearson, diana88@yahoo.com, )p4FQFFzt1, 016.469.9188</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.PetTest.testGetPetById()'><b>testGetPetById</b><br>Test class: api.testcases.PetTest</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.PetTest@26be6ca7</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 6839, cwoods, Tyler, Callahan, wendygentry@vasquez.net, $9Wwffb3!F, 952.696.8832x74320</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: michaeldavies</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 2483, christopherparrish, Mark, Good, dennismartin@paul.net, tTiZ9BiqP), (140)429-2826</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 3839, walkerrebecca, Jason, Neal, madison94@adams-tucker.net, %(8HkS!d3Q, 739.811.4247x2736</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 7439, marilynmathews, Laura, Stanley, teresawalker@yahoo.com, #k8oWG&pa5, +1-365-990-6495x12862</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: walkerrebecca</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.StoreTest.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.StoreTest</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.StoreTest@62417a16</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 1029, martinezstephanie, Angela, Chandler, scottyu@yahoo.com, W5KX8js&@X, (540)096-9288x740</td>
+<td></td>
+<td>3</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: elizabeth56</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.PetTest.testUpdatePet()'><b>testUpdatePet</b><br>Test class: api.testcases.PetTest</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.PetTest@26be6ca7</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 3839, walkerrebecca, Jason, Neal, madison94@adams-tucker.net, %(8HkS!d3Q, 739.811.4247x2736</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 6839, cwoods, Tyler, Callahan, wendygentry@vasquez.net, $9Wwffb3!F, 952.696.8832x74320</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: christopherparrish</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.UserTest.testUpdateUserbyName()'><b>testUpdateUserbyName</b><br>Test class: api.testcases.UserTest</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.UserTest@32057e6</td></tr>
+<tr>
+<td title='api.testcases.StoreTest.testGetUserbyName()'><b>testGetUserbyName</b><br>Test class: api.testcases.StoreTest</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.StoreTest@62417a16</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 7329, john74, Robert, Bailey, aayers@yahoo.com, TnUJh#gq_5, 599.477.5766</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 7439, marilynmathews, Laura, Stanley, teresawalker@yahoo.com, #k8oWG&pa5, +1-365-990-6495x12862</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 8773, zclark, Timothy, Whitehead, avilasheri@gmail.com, )v#PKzN*)0, +1-576-396-7156x58470</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: zclark</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 3728, michaeldavies, Marisa, Pearson, diana88@yahoo.com, )p4FQFFzt1, 016.469.9188</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.PetTest.testCreatePet()'><b>testCreatePet</b><br>Test class: api.testcases.PetTest</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.PetTest@26be6ca7</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 1029, martinezstephanie, Angela, Chandler, scottyu@yahoo.com, W5KX8js&@X, (540)096-9288x740</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: john74</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: marilynmathews</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: john74</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: elizabeth56</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 9832, elizabeth56, Emily, Chambers, hernandezmichael@yahoo.com, 8+6q1qHhA1, 271-162-3028x285</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 4839, bmora, John, Montoya, xmckinney@gmail.com, 1R!veFWh%1, +1-793-630-7211x405</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: martinezstephanie</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.UserTest.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.UserTest</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTest@32057e6</td></tr>
+<tr>
+<td title='api.testcases.UserTest.testGetUserbyName()'><b>testGetUserbyName</b><br>Test class: api.testcases.UserTest</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.UserTest@32057e6</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: martinezstephanie</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testGetUserByName()'><b>testGetUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: bmora</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testUpdateUser()'><b>testUpdateUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 9832, elizabeth56, Emily, Chambers, hernandezmichael@yahoo.com, 8+6q1qHhA1, 271-162-3028x285</td>
+<td></td>
+<td>2</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testDeleteUserByName()'><b>testDeleteUserByName</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: bmora</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+<tr>
+<td title='api.testcases.DataDrivenTests.testPostUser()'><b>testPostUser</b><br>Test class: api.testcases.DataDrivenTests<br>Parameters: 7329, john74, Robert, Bailey, aayers@yahoo.com, TnUJh#gq_5, 599.477.5766</td>
+<td></td>
+<td>1</td>
+<td>api.testcases.DataDrivenTests@a38c7fe</td></tr>
+</table><p>
+</body>
+</html>

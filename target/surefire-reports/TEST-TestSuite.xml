@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="100.238" tests="51" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\sivabr\eclipse-workspace\PetStoreAutomation\target\test-classes;C:\Users\sivabr\eclipse-workspace\PetStoreAutomation\target\classes;C:\Users\sivabr\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\sivabr\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\sivabr\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sivabr\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sivabr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sivabr\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sivabr\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sivabr\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sivabr\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sivabr\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sivabr\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sivabr\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\sivabr\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\sivabr\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\sivabr\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\sivabr\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\sivabr\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\sivabr\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\sivabr\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\sivabr\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\sivabr\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sivabr\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\sivabr\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sivabr\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sivabr\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\sivabr\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\sivabr\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\sivabr\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\sivabr\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\sivabr\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\sivabr\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\sivabr\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\sivabr\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\sivabr\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\sivabr\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sivabr\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\sivabr\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\sivabr\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\sivabr\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sivabr\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\sivabr\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\sivabr\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sivabr\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sivabr\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\sivabr\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\sivabr\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;C:\Users\sivabr\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sivabr\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\sivabr\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\sivabr\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\sivabr\AppData\Local\Temp\surefire12108938949543237088\surefirebooter-20241212123005347_3.jar C:\Users\sivabr\AppData\Local\Temp\surefire12108938949543237088 2024-12-12T12-30-04_217-jvmRun1 surefire-20241212123005347_1tmp surefire_0-20241212123005347_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sivabr\eclipse-workspace\PetStoreAutomation\target\test-classes;C:\Users\sivabr\eclipse-workspace\PetStoreAutomation\target\classes;C:\Users\sivabr\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\sivabr\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\sivabr\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sivabr\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sivabr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sivabr\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sivabr\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sivabr\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\sivabr\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\sivabr\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sivabr\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\sivabr\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\sivabr\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\sivabr\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\sivabr\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\sivabr\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\sivabr\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\sivabr\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\sivabr\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\sivabr\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\sivabr\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\sivabr\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\sivabr\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\sivabr\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\sivabr\.m2\repository\com\github\scribejava\scribejava-apis\8.3.1\scribejava-apis-8.3.1.jar;C:\Users\sivabr\.m2\repository\com\github\scribejava\scribejava-core\8.3.1\scribejava-core-8.3.1.jar;C:\Users\sivabr\.m2\repository\com\github\scribejava\scribejava-java8\8.3.1\scribejava-java8-8.3.1.jar;C:\Users\sivabr\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\sivabr\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\sivabr\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\sivabr\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\sivabr\.m2\repository\io\rest-assured\json-schema-validator\5.4.0\json-schema-validator-5.4.0.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\sivabr\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\sivabr\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\sivabr\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\sivabr\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\sivabr\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\sivabr\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sivabr\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\sivabr\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\sivabr\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\sivabr\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sivabr\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\sivabr\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\sivabr\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sivabr\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sivabr\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\sivabr\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\sivabr\.m2\repository\io\github\cdimascio\dotenv-java\3.0.0\dotenv-java-3.0.0.jar;C:\Users\sivabr\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\sivabr\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\sivabr\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\sivabr\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\sivabr\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sivabr"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sivabr\eclipse-workspace\PetStoreAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sivabr\AppData\Local\Temp\surefire12108938949543237088\surefirebooter-20241212123005347_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="sivabr"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sivabr\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sivabr\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\sivabr\eclipse-workspace\PetStoreAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/sivabr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518/jre/bin/server;C:/Users/sivabr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.12.v20240802-1518/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\sivabr\Downloads\apache-maven-3.9.9\bin;C:\Program Files\nodejs\node_modules;C:\Program Files\nodejs\;C:\Users\sivabr\AppData\Local\Microsoft\WindowsApps;C:\Users\sivabr\AppData\Roaming\npm;C:\Users\sivabr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testPostUser[1029, martinezstephanie, Angela, Chandler, scottyu@yahoo.com, W5KX8js&amp;@X, (540)096-9288x740](1)" classname="api.testcases.DataDrivenTests" time="3.077">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testPostUser[7329, john74, Robert, Bailey, aayers@yahoo.com, TnUJh#gq_5, 599.477.5766](2)" classname="api.testcases.DataDrivenTests" time="1.333"/>
+  <testcase name="testPostUser[7439, marilynmathews, Laura, Stanley, teresawalker@yahoo.com, #k8oWG&amp;pa5, +1-365-990-6495x12862](3)" classname="api.testcases.DataDrivenTests" time="1.186"/>
+  <testcase name="testPostUser[3839, walkerrebecca, Jason, Neal, madison94@adams-tucker.net, %(8HkS!d3Q, 739.811.4247x2736](4)" classname="api.testcases.DataDrivenTests" time="1.429"/>
+  <testcase name="testPostUser[9832, elizabeth56, Emily, Chambers, hernandezmichael@yahoo.com, 8+6q1qHhA1, 271-162-3028x285](5)" classname="api.testcases.DataDrivenTests" time="1.331"/>
+  <testcase name="testPostUser[2483, christopherparrish, Mark, Good, dennismartin@paul.net, tTiZ9BiqP), (140)429-2826](6)" classname="api.testcases.DataDrivenTests" time="1.271"/>
+  <testcase name="testPostUser[3728, michaeldavies, Marisa, Pearson, diana88@yahoo.com, )p4FQFFzt1, 016.469.9188](7)" classname="api.testcases.DataDrivenTests" time="1.417"/>
+  <testcase name="testPostUser[6839, cwoods, Tyler, Callahan, wendygentry@vasquez.net, $9Wwffb3!F, 952.696.8832x74320](8)" classname="api.testcases.DataDrivenTests" time="1.359"/>
+  <testcase name="testPostUser[4839, bmora, John, Montoya, xmckinney@gmail.com, 1R!veFWh%1, +1-793-630-7211x405](9)" classname="api.testcases.DataDrivenTests" time="1.478"/>
+  <testcase name="testPostUser[8773, zclark, Timothy, Whitehead, avilasheri@gmail.com, )v#PKzN*)0, +1-576-396-7156x58470](10)" classname="api.testcases.DataDrivenTests" time="1.168"/>
+  <testcase name="testGetUserByName[martinezstephanie](1)" classname="api.testcases.DataDrivenTests" time="1.475">
+    <system-out><![CDATA[{
+    "id": 1029,
+    "username": "martinezstephanie",
+    "firstName": "Angela",
+    "lastName": "Chandler",
+    "email": "scottyu@yahoo.com",
+    "password": "W5KX8js&@X",
+    "phone": "(540)096-9288x740",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[john74](2)" classname="api.testcases.DataDrivenTests" time="1.402">
+    <system-out><![CDATA[{
+    "id": 7329,
+    "username": "john74",
+    "firstName": "Robert",
+    "lastName": "Bailey",
+    "email": "aayers@yahoo.com",
+    "password": "TnUJh#gq_5",
+    "phone": "599.477.5766",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[marilynmathews](3)" classname="api.testcases.DataDrivenTests" time="1.245">
+    <system-out><![CDATA[{
+    "id": 7439,
+    "username": "marilynmathews",
+    "firstName": "Laura",
+    "lastName": "Stanley",
+    "email": "teresawalker@yahoo.com",
+    "password": "#k8oWG&pa5",
+    "phone": "+1-365-990-6495x12862",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[walkerrebecca](4)" classname="api.testcases.DataDrivenTests" time="1.511">
+    <system-out><![CDATA[{
+    "id": 3839,
+    "username": "walkerrebecca",
+    "firstName": "Jason",
+    "lastName": "Neal",
+    "email": "madison94@adams-tucker.net",
+    "password": "%(8HkS!d3Q",
+    "phone": "739.811.4247x2736",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[elizabeth56](5)" classname="api.testcases.DataDrivenTests" time="1.228">
+    <system-out><![CDATA[{
+    "id": 9832,
+    "username": "elizabeth56",
+    "firstName": "Emily",
+    "lastName": "Chambers",
+    "email": "hernandezmichael@yahoo.com",
+    "password": "8+6q1qHhA1",
+    "phone": "271-162-3028x285",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[christopherparrish](6)" classname="api.testcases.DataDrivenTests" time="1.539">
+    <system-out><![CDATA[{
+    "id": 2483,
+    "username": "christopherparrish",
+    "firstName": "Mark",
+    "lastName": "Good",
+    "email": "dennismartin@paul.net",
+    "password": "tTiZ9BiqP)",
+    "phone": "(140)429-2826",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[michaeldavies](7)" classname="api.testcases.DataDrivenTests" time="1.353">
+    <system-out><![CDATA[{
+    "id": 3728,
+    "username": "michaeldavies",
+    "firstName": "Marisa",
+    "lastName": "Pearson",
+    "email": "diana88@yahoo.com",
+    "password": ")p4FQFFzt1",
+    "phone": "016.469.9188",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[cwoods](8)" classname="api.testcases.DataDrivenTests" time="1.31">
+    <system-out><![CDATA[{
+    "id": 6839,
+    "username": "cwoods",
+    "firstName": "Tyler",
+    "lastName": "Callahan",
+    "email": "wendygentry@vasquez.net",
+    "password": "$9Wwffb3!F",
+    "phone": "952.696.8832x74320",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[bmora](9)" classname="api.testcases.DataDrivenTests" time="1.329">
+    <system-out><![CDATA[{
+    "id": 4839,
+    "username": "bmora",
+    "firstName": "John",
+    "lastName": "Montoya",
+    "email": "xmckinney@gmail.com",
+    "password": "1R!veFWh%1",
+    "phone": "+1-793-630-7211x405",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserByName[zclark](10)" classname="api.testcases.DataDrivenTests" time="1.431">
+    <system-out><![CDATA[{
+    "id": 8773,
+    "username": "zclark",
+    "firstName": "Timothy",
+    "lastName": "Whitehead",
+    "email": "avilasheri@gmail.com",
+    "password": ")v#PKzN*)0",
+    "phone": "+1-576-396-7156x58470",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[1029, martinezstephanie, Angela, Chandler, scottyu@yahoo.com, W5KX8js&amp;@X, (540)096-9288x740](1)" classname="api.testcases.DataDrivenTests" time="2.947">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 1029,
+    "username": "martinezstephanie",
+    "firstName": "Matilde",
+    "lastName": "Lang",
+    "email": "carlie.dickens@hotmail.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[7329, john74, Robert, Bailey, aayers@yahoo.com, TnUJh#gq_5, 599.477.5766](2)" classname="api.testcases.DataDrivenTests" time="2.844">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 7329,
+    "username": "john74",
+    "firstName": "Ruben",
+    "lastName": "Schmidt",
+    "email": "daria.dicki@hotmail.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[7439, marilynmathews, Laura, Stanley, teresawalker@yahoo.com, #k8oWG&amp;pa5, +1-365-990-6495x12862](3)" classname="api.testcases.DataDrivenTests" time="3.069">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 7439,
+    "username": "marilynmathews",
+    "firstName": "Annmarie",
+    "lastName": "Marvin",
+    "email": "daryl.huel@yahoo.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[3839, walkerrebecca, Jason, Neal, madison94@adams-tucker.net, %(8HkS!d3Q, 739.811.4247x2736](4)" classname="api.testcases.DataDrivenTests" time="2.764">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 3839,
+    "username": "walkerrebecca",
+    "firstName": "Deanna",
+    "lastName": "Auer",
+    "email": "tracy.wintheiser@hotmail.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[9832, elizabeth56, Emily, Chambers, hernandezmichael@yahoo.com, 8+6q1qHhA1, 271-162-3028x285](5)" classname="api.testcases.DataDrivenTests" time="2.801">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 9832,
+    "username": "elizabeth56",
+    "firstName": "Matt",
+    "lastName": "Hane",
+    "email": "daniel.nitzsche@yahoo.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[2483, christopherparrish, Mark, Good, dennismartin@paul.net, tTiZ9BiqP), (140)429-2826](6)" classname="api.testcases.DataDrivenTests" time="2.544">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 2483,
+    "username": "christopherparrish",
+    "firstName": "Craig",
+    "lastName": "McDermott",
+    "email": "leilani.mills@gmail.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[3728, michaeldavies, Marisa, Pearson, diana88@yahoo.com, )p4FQFFzt1, 016.469.9188](7)" classname="api.testcases.DataDrivenTests" time="2.538">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 3728,
+    "username": "michaeldavies",
+    "firstName": "Wayne",
+    "lastName": "Murazik",
+    "email": "demarcus.kuhlman@gmail.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[6839, cwoods, Tyler, Callahan, wendygentry@vasquez.net, $9Wwffb3!F, 952.696.8832x74320](8)" classname="api.testcases.DataDrivenTests" time="2.877">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 6839,
+    "username": "cwoods",
+    "firstName": "Kasey",
+    "lastName": "Kertzmann",
+    "email": "alishia.bednar@yahoo.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[4839, bmora, John, Montoya, xmckinney@gmail.com, 1R!veFWh%1, +1-793-630-7211x405](9)" classname="api.testcases.DataDrivenTests" time="2.856">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 4839,
+    "username": "bmora",
+    "firstName": "Danuta",
+    "lastName": "Considine",
+    "email": "buck.bednar@hotmail.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUser[8773, zclark, Timothy, Whitehead, avilasheri@gmail.com, )v#PKzN*)0, +1-576-396-7156x58470](10)" classname="api.testcases.DataDrivenTests" time="2.769">
+    <system-out><![CDATA[GET Response After Update: 
+{
+    "id": 8773,
+    "username": "zclark",
+    "firstName": "Hugo",
+    "lastName": "Howe",
+    "email": "rolland.jacobson@hotmail.com",
+    "userStatus": 0
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserByName[martinezstephanie](1)" classname="api.testcases.DataDrivenTests" time="1.418"/>
+  <testcase name="testDeleteUserByName[john74](2)" classname="api.testcases.DataDrivenTests" time="1.285"/>
+  <testcase name="testDeleteUserByName[marilynmathews](3)" classname="api.testcases.DataDrivenTests" time="1.409"/>
+  <testcase name="testDeleteUserByName[walkerrebecca](4)" classname="api.testcases.DataDrivenTests" time="1.401"/>
+  <testcase name="testDeleteUserByName[elizabeth56](5)" classname="api.testcases.DataDrivenTests" time="1.448"/>
+  <testcase name="testDeleteUserByName[christopherparrish](6)" classname="api.testcases.DataDrivenTests" time="1.152"/>
+  <testcase name="testDeleteUserByName[michaeldavies](7)" classname="api.testcases.DataDrivenTests" time="1.296"/>
+  <testcase name="testDeleteUserByName[cwoods](8)" classname="api.testcases.DataDrivenTests" time="1.531"/>
+  <testcase name="testDeleteUserByName[bmora](9)" classname="api.testcases.DataDrivenTests" time="1.418"/>
+  <testcase name="testDeleteUserByName[zclark](10)" classname="api.testcases.DataDrivenTests" time="1.244"/>
+  <testcase name="testPostUser" classname="api.testcases.StoreTest" time="2.853">
+    <system-out><![CDATA[12:31:21.206 [main] INFO  api.testcases.StoreTest - Test setup completed.
+12:31:21.211 [main] INFO  api.testcases.StoreTest - Fetching inventory before creating an order.
+{
+    "sold": 4,
+    "string": 466,
+    "pending": 6,
+    "available": 170,
+    "not available": 1,
+    "Pending": 4
+}
+12:31:22.737 [main] INFO  api.testcases.StoreTest - Creating payload dynamically using Faker.
+12:31:22.738 [main] INFO  api.testcases.StoreTest - Randomly selected status: shipped
+12:31:22.739 [main] INFO  api.testcases.StoreTest - Randomly selected complete status: true
+12:31:22.739 [main] INFO  api.testcases.StoreTest - Sending POST request to create the order.
+HTTP/1.1 200 OK
+Date: Thu, 12 Dec 2024 07:01:23 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 577178676,
+    "petId": 2,
+    "quantity": 3,
+    "shipDate": "2024-12-18T10:56:53.361+0000",
+    "status": "shipped",
+    "complete": true
+}
+12:31:24.067 [main] INFO  api.testcases.StoreTest - Order created successfully.
+12:31:24.067 [main] INFO  api.testcases.StoreTest - Fetching inventory after creating the order.
+{
+    "sold": 4,
+    "string": 466,
+    "pending": 6,
+    "available": 170,
+    "not available": 1,
+    "Pending": 4
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserbyName" classname="api.testcases.StoreTest" time="1.779">
+    <system-out><![CDATA[12:31:24.071 [main] INFO  api.testcases.StoreTest - Generated ID for GET request: 577178676
+12:31:24.071 [main] INFO  api.testcases.StoreTest - Sending GET request to fetch the user by ID.
+HTTP/1.1 200 OK
+Date: Thu, 12 Dec 2024 07:01:24 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 577178676,
+    "petId": 2,
+    "quantity": 3,
+    "shipDate": "2024-12-18T10:56:53.361+0000",
+    "status": "shipped",
+    "complete": true
+}
+12:31:25.397 [main] INFO  api.testcases.StoreTest - User fetched successfully.
+12:31:25.849 [main] INFO  api.testcases.StoreTest - Response validated against schema.
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserbyName" classname="api.testcases.StoreTest" time="3.035">
+    <system-out><![CDATA[12:31:25.851 [main] INFO  api.testcases.StoreTest - Generated ID for DELETE request: 577178676
+12:31:25.851 [main] INFO  api.testcases.StoreTest - Sending DELETE request to delete the user.
+HTTP/1.1 200 OK
+Date: Thu, 12 Dec 2024 07:01:26 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "577178676"
+}
+12:31:27.314 [main] INFO  api.testcases.StoreTest - User deleted successfully.
+12:31:27.315 [main] INFO  api.testcases.StoreTest - Sending GET request to check user after deletion.
+HTTP/1.1 404 Not Found
+Date: Thu, 12 Dec 2024 07:01:27 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 1,
+    "type": "error",
+    "message": "Order not found"
+}
+12:31:28.878 [main] INFO  api.testcases.StoreTest - User not found after deletion.
+12:31:28.879 [main] INFO  api.testcases.StoreTest - Fetching inventory after deleting the order.
+{
+    "sold": 4,
+    "string": 466,
+    "pending": 6,
+    "available": 170,
+    "not available": 1,
+    "Pending": 4
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testPostUser" classname="api.testcases.UserTest" time="1.151">
+    <system-out><![CDATA[12:31:28.943 [main] INFO  api.testcases.UserTest - Creating the User
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1509248883"
+}
+12:31:30.090 [main] INFO  api.testcases.UserTest - User is Created
+]]></system-out>
+  </testcase>
+  <testcase name="testGetUserbyName" classname="api.testcases.UserTest" time="1.356">
+    <system-out><![CDATA[12:31:30.094 [main] INFO  api.testcases.UserTest - Reading the User Info
+{
+    "id": 1509248883,
+    "username": "ellsworthtorphy",
+    "firstName": "Alida",
+    "lastName": "Jacobs",
+    "email": "gaylord.johns@example.com",
+    "password": "xla7hg",
+    "phone": "322.264.3831",
+    "userStatus": 9
+}
+12:31:31.447 [main] INFO  api.testcases.UserTest - Generated Username: ellsworthtorphy
+12:31:31.448 [main] INFO  api.testcases.UserTest - User Info Is Displayed
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateUserbyName" classname="api.testcases.UserTest" time="2.883">
+    <system-out><![CDATA[12:31:31.449 [main] INFO  api.testcases.UserTest - Updating the User Information
+12:31:31.450 [main] INFO  api.testcases.UserTest - Updated User: Neal Schumm meryl.mertz@example.com
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "1509248883"
+}
+{
+    "id": 1509248883,
+    "username": "ellsworthtorphy",
+    "firstName": "Neal",
+    "lastName": "Schumm",
+    "email": "meryl.mertz@example.com",
+    "password": "xla7hg",
+    "phone": "322.264.3831",
+    "userStatus": 9
+}
+12:31:34.331 [main] INFO  api.testcases.UserTest - User Information is Updated
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteUserbyName" classname="api.testcases.UserTest" time="2.58">
+    <system-out><![CDATA[12:31:34.332 [main] INFO  api.testcases.UserTest - Deleting the User
+HTTP/1.1 200 OK
+Date: Thu, 12 Dec 2024 07:01:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ellsworthtorphy"
+}
+12:31:35.464 [main] INFO  api.testcases.UserTest - User is Deleted
+{
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testCreatePet" classname="api.testcases.PetTest" time="1.402">
+    <system-out><![CDATA[12:31:36.928 [main] INFO  api.testcases.PetTest - Creating the Pet
+{
+    "id": 242425964,
+    "category": {
+        "id": 8,
+        "name": "Issac"
+    },
+    "name": "Ali Weissnat",
+    "photoUrls": [
+        "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=600&name=image8-2.jpg"
+    ],
+    "tags": [
+        {
+            "id": 6,
+            "name": "Glover"
+        }
+    ],
+    "status": "pending"
+}
+12:31:38.321 [main] INFO  api.testcases.PetTest - Pet is Created
+]]></system-out>
+  </testcase>
+  <testcase name="testGetPetById" classname="api.testcases.PetTest" time="1.418">
+    <system-out><![CDATA[12:31:38.324 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+{
+    "id": 242425964,
+    "category": {
+        "id": 8,
+        "name": "Issac"
+    },
+    "name": "Ali Weissnat",
+    "photoUrls": [
+        "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=600&name=image8-2.jpg"
+    ],
+    "tags": [
+        {
+            "id": 6,
+            "name": "Glover"
+        }
+    ],
+    "status": "pending"
+}
+12:31:39.743 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdatePet" classname="api.testcases.PetTest" time="2.966">
+    <system-out><![CDATA[12:31:39.745 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+Updated Pet Name: Zella, Status: sold
+12:31:39.745 [main] INFO  api.testcases.PetTest - Checking the Pet Information After Applied the Changes
+{
+    "id": 242425964,
+    "category": {
+        "id": 8,
+        "name": "Issac"
+    },
+    "name": "Zella",
+    "photoUrls": [
+        "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=600&name=image8-2.jpg"
+    ],
+    "tags": [
+        {
+            "id": 6,
+            "name": "Glover"
+        }
+    ],
+    "status": "sold"
+}
+{
+    "id": 242425964,
+    "category": {
+        "id": 8,
+        "name": "Issac"
+    },
+    "name": "Zella",
+    "photoUrls": [
+        "https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=600&name=image8-2.jpg"
+    ],
+    "tags": [
+        {
+            "id": 6,
+            "name": "Glover"
+        }
+    ],
+    "status": "sold"
+}
+12:31:42.704 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+12:31:42.704 [main] INFO  api.testcases.PetTest - Pet Information Changes Added in the Payload
+]]></system-out>
+  </testcase>
+  <testcase name="testDeletePet" classname="api.testcases.PetTest" time="2.499">
+    <system-out><![CDATA[12:31:42.706 [main] INFO  api.testcases.PetTest - Deleting the Pet
+HTTP/1.1 200 OK
+Date: Thu, 12 Dec 2024 07:01:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "242425964"
+}
+12:31:44.033 [main] INFO  api.testcases.PetTest - Pet is Deleted
+12:31:44.034 [main] INFO  api.testcases.PetTest - Verify After Delete the user, Still the Pet User Exists!
+{
+    "code": 1,
+    "type": "error",
+    "message": "Pet not found"
+}
+12:31:45.211 [main] INFO  api.testcases.PetTest - Pet User is Deleted Completely
+]]></system-out>
+  </testcase>
+</testsuite>

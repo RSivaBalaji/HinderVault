@@ -1,0 +1,216 @@
+15:15:13.264 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:15:16.164 [main] INFO  api.testcases.PetTest - Pet is Created
+15:15:16.173 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:15:17.690 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+15:15:17.692 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:15:17.693 [main] INFO  api.testcases.PetTest - Updated Pet Name: Anisa, Status: 3
+15:15:20.029 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:15:20.031 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:15:21.210 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:21:15.666 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:21:18.651 [main] INFO  api.testcases.PetTest - Pet is Created
+15:21:18.660 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:21:20.197 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+15:21:20.210 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:21:20.212 [main] INFO  api.testcases.PetTest - Updated Pet Name: Mia, Status: 0
+15:21:22.541 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:21:22.544 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:21:23.691 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:28:42.452 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:28:46.043 [main] INFO  api.testcases.PetTest - Pet is Created
+15:28:46.053 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:28:48.190 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+15:28:48.192 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:28:48.193 [main] INFO  api.testcases.PetTest - Updated Pet Name: Etha, Status: available
+15:28:50.510 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:28:50.511 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:28:51.671 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:30:12.912 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:30:15.826 [main] INFO  api.testcases.PetTest - Pet is Created
+15:30:15.834 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:30:17.255 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+15:30:17.257 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:30:17.258 [main] INFO  api.testcases.PetTest - Updated Pet Name: Celestina, Status: sold
+15:30:19.625 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:30:19.628 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:30:20.816 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:37:30.099 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:37:32.990 [main] INFO  api.testcases.PetTest - Pet is Created
+15:37:32.998 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:37:34.447 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+15:37:34.450 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:37:34.451 [main] INFO  api.testcases.PetTest - Updated Pet Name: Manie, Status: sold
+15:37:36.788 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:37:36.791 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:37:37.956 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:38:19.212 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:38:22.115 [main] INFO  api.testcases.PetTest - Pet is Created
+15:38:22.123 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:38:23.571 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+15:38:23.574 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:38:23.574 [main] INFO  api.testcases.PetTest - Updated Pet Name: Sharonda, Status: sold
+15:38:25.959 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:38:25.962 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:38:27.153 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:44:41.316 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:44:44.313 [main] INFO  api.testcases.PetTest - Pet is Created
+15:44:44.324 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:44:45.782 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+15:44:45.784 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:44:45.785 [main] INFO  api.testcases.PetTest - Updated Pet Name: Alex, Status: sold
+15:44:45.785 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:44:45.785 [main] INFO  api.testcases.PetTest - Checking the Pet Information After Applied the Changes
+15:44:48.155 [main] INFO  api.testcases.PetTest - Pet Information Changes Added in the Payload
+15:44:48.158 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:44:49.338 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:44:49.338 [main] INFO  api.testcases.PetTest - Verify After Delete the user, Still the User Exists!
+15:44:50.485 [main] INFO  api.testcases.PetTest - Pet User is Deleted Completely
+15:48:16.180 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:48:19.226 [main] INFO  api.testcases.PetTest - Pet is Created
+15:48:19.233 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:48:20.655 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+
+15:48:20.658 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:48:20.659 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:48:20.660 [main] INFO  api.testcases.PetTest - Checking the Pet Information After Applied the Changes
+15:48:23.005 [main] INFO  api.testcases.PetTest - Pet Information Changes Added in the Payload
+15:48:23.008 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:48:24.168 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:48:24.169 [main] INFO  api.testcases.PetTest - Verify After Delete the user, Still the Pet User Exists!
+15:48:25.337 [main] INFO  api.testcases.PetTest - Pet User is Deleted Completely
+15:50:57.888 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:51:00.785 [main] INFO  api.testcases.PetTest - Pet is Created
+15:51:00.794 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:51:02.257 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+
+15:51:02.268 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:51:02.268 [main] INFO  api.testcases.PetTest - Checking the Pet Information After Applied the Changes
+15:51:04.651 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:51:04.652 [main] INFO  api.testcases.PetTest - Pet Information Changes Added in the Payload
+15:51:04.654 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:51:05.868 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:51:05.868 [main] INFO  api.testcases.PetTest - Verify After Delete the user, Still the Pet User Exists!
+15:51:07.094 [main] INFO  api.testcases.PetTest - Pet User is Deleted Completely
+15:53:12.737 [main] INFO  api.testcases.UserTest - Creating the User
+15:53:13.887 [main] INFO  api.testcases.UserTest - User is Created
+15:53:13.891 [main] INFO  api.testcases.UserTest - Reading the User Info
+15:53:15.069 [main] INFO  api.testcases.UserTest - Generated Username: jamiegusikowski
+15:53:15.069 [main] INFO  api.testcases.UserTest - User Info Is Displayed
+15:53:15.071 [main] INFO  api.testcases.UserTest - Updating the User Information
+15:53:15.071 [main] INFO  api.testcases.UserTest - Updated User: Deangelo Kunde garret.wilkinson@example.com
+15:53:17.411 [main] INFO  api.testcases.UserTest - User Information is Updated
+15:53:17.412 [main] INFO  api.testcases.UserTest - Deleting the User
+15:53:18.561 [main] INFO  api.testcases.UserTest - User is Deleted
+15:53:19.734 [main] INFO  api.testcases.PetTest - Creating the Pet
+15:53:20.904 [main] INFO  api.testcases.PetTest - Pet is Created
+15:53:20.908 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+15:53:22.069 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+
+15:53:22.071 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+15:53:22.072 [main] INFO  api.testcases.PetTest - Checking the Pet Information After Applied the Changes
+15:53:24.383 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+15:53:24.383 [main] INFO  api.testcases.PetTest - Pet Information Changes Added in the Payload
+15:53:24.388 [main] INFO  api.testcases.PetTest - Deleting the Pet
+15:53:25.553 [main] INFO  api.testcases.PetTest - Pet is Deleted
+15:53:25.553 [main] INFO  api.testcases.PetTest - Verify After Delete the user, Still the Pet User Exists!
+15:53:26.705 [main] INFO  api.testcases.PetTest - Pet User is Deleted Completely
+16:12:19.991 [main] INFO  api.testcases.StoreTest - Test setup completed.
+16:12:20.007 [main] INFO  api.testcases.StoreTest - Fetching inventory before creating an order.
+16:12:22.926 [main] INFO  api.testcases.StoreTest - Creating payload dynamically using Faker.
+16:12:22.936 [main] INFO  api.testcases.StoreTest - Randomly selected status: placed
+16:12:22.937 [main] INFO  api.testcases.StoreTest - Randomly selected complete status: true
+16:12:22.937 [main] INFO  api.testcases.StoreTest - Sending POST request to create the order.
+16:12:24.142 [main] INFO  api.testcases.StoreTest - Order created successfully.
+16:12:24.142 [main] INFO  api.testcases.StoreTest - Fetching inventory after creating the order.
+16:12:24.149 [main] INFO  api.testcases.StoreTest - Generated ID for GET request: 1541298091
+16:12:24.149 [main] INFO  api.testcases.StoreTest - Sending GET request to fetch the user by ID.
+16:12:25.309 [main] INFO  api.testcases.StoreTest - User fetched successfully.
+16:12:25.566 [main] INFO  api.testcases.StoreTest - Response validated against schema.
+16:12:25.569 [main] INFO  api.testcases.StoreTest - Generated ID for DELETE request: 1541298091
+16:12:25.569 [main] INFO  api.testcases.StoreTest - Sending DELETE request to delete the user.
+16:12:26.737 [main] INFO  api.testcases.StoreTest - User deleted successfully.
+16:12:26.737 [main] INFO  api.testcases.StoreTest - Sending GET request to check user after deletion.
+16:12:27.926 [main] INFO  api.testcases.StoreTest - User not found after deletion.
+16:12:27.926 [main] INFO  api.testcases.StoreTest - Fetching inventory after deleting the order.
+11:45:32.298 [main] INFO  api.testcases.StoreTest - Test setup completed.
+11:45:32.304 [main] INFO  api.testcases.StoreTest - Fetching inventory before creating an order.
+11:45:33.479 [main] INFO  api.testcases.StoreTest - Creating payload dynamically using Faker.
+11:45:33.482 [main] INFO  api.testcases.StoreTest - Randomly selected status: delivered
+11:45:33.482 [main] INFO  api.testcases.StoreTest - Randomly selected complete status: false
+11:45:33.482 [main] INFO  api.testcases.StoreTest - Sending POST request to create the order.
+11:45:34.614 [main] INFO  api.testcases.StoreTest - Order created successfully.
+11:45:34.614 [main] INFO  api.testcases.StoreTest - Fetching inventory after creating the order.
+11:45:34.619 [main] INFO  api.testcases.StoreTest - Generated ID for GET request: 1830816681
+11:45:34.619 [main] INFO  api.testcases.StoreTest - Sending GET request to fetch the user by ID.
+11:45:35.761 [main] INFO  api.testcases.StoreTest - User fetched successfully.
+11:45:36.108 [main] INFO  api.testcases.StoreTest - Response validated against schema.
+11:45:36.109 [main] INFO  api.testcases.StoreTest - Generated ID for DELETE request: 1830816681
+11:45:36.110 [main] INFO  api.testcases.StoreTest - Sending DELETE request to delete the user.
+11:45:37.271 [main] INFO  api.testcases.StoreTest - User deleted successfully.
+11:45:37.271 [main] INFO  api.testcases.StoreTest - Sending GET request to check user after deletion.
+11:45:38.452 [main] INFO  api.testcases.StoreTest - User not found after deletion.
+11:45:38.452 [main] INFO  api.testcases.StoreTest - Fetching inventory after deleting the order.
+11:45:38.481 [main] INFO  api.testcases.UserTest - Creating the User
+11:45:39.626 [main] INFO  api.testcases.UserTest - User is Created
+11:45:39.630 [main] INFO  api.testcases.UserTest - Reading the User Info
+11:45:40.776 [main] INFO  api.testcases.UserTest - Generated Username: olinhomenick
+11:45:40.776 [main] INFO  api.testcases.UserTest - User Info Is Displayed
+11:45:40.778 [main] INFO  api.testcases.UserTest - Updating the User Information
+11:45:40.778 [main] INFO  api.testcases.UserTest - Updated User: Cody Greenfelder mario.ledner@example.com
+11:45:43.077 [main] INFO  api.testcases.UserTest - User Information is Updated
+11:45:43.079 [main] INFO  api.testcases.UserTest - Deleting the User
+11:45:44.241 [main] INFO  api.testcases.UserTest - User is Deleted
+11:45:45.410 [main] INFO  api.testcases.PetTest - Creating the Pet
+11:45:46.553 [main] INFO  api.testcases.PetTest - Pet is Created
+11:45:46.556 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+11:45:47.696 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+
+11:45:47.698 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+11:45:47.699 [main] INFO  api.testcases.PetTest - Checking the Pet Information After Applied the Changes
+11:45:50.050 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+11:45:50.050 [main] INFO  api.testcases.PetTest - Pet Information Changes Added in the Payload
+11:45:50.053 [main] INFO  api.testcases.PetTest - Deleting the Pet
+11:45:51.171 [main] INFO  api.testcases.PetTest - Pet is Deleted
+11:45:51.172 [main] INFO  api.testcases.PetTest - Verify After Delete the user, Still the Pet User Exists!
+11:45:52.306 [main] INFO  api.testcases.PetTest - Pet User is Deleted Completely
+12:31:21.206 [main] INFO  api.testcases.StoreTest - Test setup completed.
+12:31:21.211 [main] INFO  api.testcases.StoreTest - Fetching inventory before creating an order.
+12:31:22.737 [main] INFO  api.testcases.StoreTest - Creating payload dynamically using Faker.
+12:31:22.738 [main] INFO  api.testcases.StoreTest - Randomly selected status: shipped
+12:31:22.739 [main] INFO  api.testcases.StoreTest - Randomly selected complete status: true
+12:31:22.739 [main] INFO  api.testcases.StoreTest - Sending POST request to create the order.
+12:31:24.067 [main] INFO  api.testcases.StoreTest - Order created successfully.
+12:31:24.067 [main] INFO  api.testcases.StoreTest - Fetching inventory after creating the order.
+12:31:24.071 [main] INFO  api.testcases.StoreTest - Generated ID for GET request: 577178676
+12:31:24.071 [main] INFO  api.testcases.StoreTest - Sending GET request to fetch the user by ID.
+12:31:25.397 [main] INFO  api.testcases.StoreTest - User fetched successfully.
+12:31:25.849 [main] INFO  api.testcases.StoreTest - Response validated against schema.
+12:31:25.851 [main] INFO  api.testcases.StoreTest - Generated ID for DELETE request: 577178676
+12:31:25.851 [main] INFO  api.testcases.StoreTest - Sending DELETE request to delete the user.
+12:31:27.314 [main] INFO  api.testcases.StoreTest - User deleted successfully.
+12:31:27.315 [main] INFO  api.testcases.StoreTest - Sending GET request to check user after deletion.
+12:31:28.878 [main] INFO  api.testcases.StoreTest - User not found after deletion.
+12:31:28.879 [main] INFO  api.testcases.StoreTest - Fetching inventory after deleting the order.
+12:31:28.943 [main] INFO  api.testcases.UserTest - Creating the User
+12:31:30.090 [main] INFO  api.testcases.UserTest - User is Created
+12:31:30.094 [main] INFO  api.testcases.UserTest - Reading the User Info
+12:31:31.447 [main] INFO  api.testcases.UserTest - Generated Username: ellsworthtorphy
+12:31:31.448 [main] INFO  api.testcases.UserTest - User Info Is Displayed
+12:31:31.449 [main] INFO  api.testcases.UserTest - Updating the User Information
+12:31:31.450 [main] INFO  api.testcases.UserTest - Updated User: Neal Schumm meryl.mertz@example.com
+12:31:34.331 [main] INFO  api.testcases.UserTest - User Information is Updated
+12:31:34.332 [main] INFO  api.testcases.UserTest - Deleting the User
+12:31:35.464 [main] INFO  api.testcases.UserTest - User is Deleted
+12:31:36.928 [main] INFO  api.testcases.PetTest - Creating the Pet
+12:31:38.321 [main] INFO  api.testcases.PetTest - Pet is Created
+12:31:38.324 [main] INFO  api.testcases.PetTest - Reading the Pet Info
+12:31:39.743 [main] INFO  api.testcases.PetTest - Pet Info Is Displayed
+
+12:31:39.745 [main] INFO  api.testcases.PetTest - Updating the Pet Information
+12:31:39.745 [main] INFO  api.testcases.PetTest - Checking the Pet Information After Applied the Changes
+12:31:42.704 [main] INFO  api.testcases.PetTest - Pet Information is Updated
+12:31:42.704 [main] INFO  api.testcases.PetTest - Pet Information Changes Added in the Payload
+12:31:42.706 [main] INFO  api.testcases.PetTest - Deleting the Pet
+12:31:44.033 [main] INFO  api.testcases.PetTest - Pet is Deleted
+12:31:44.034 [main] INFO  api.testcases.PetTest - Verify After Delete the user, Still the Pet User Exists!
+12:31:45.211 [main] INFO  api.testcases.PetTest - Pet User is Deleted Completely
